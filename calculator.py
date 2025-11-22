@@ -18,8 +18,12 @@ def divide(self, a, b):
 
 
     # Square root feature
-    def square_root(self, x):
-        return math.sqrt(x)
+# Improved square root with input validation
+def square_root(self, x):
+    if x < 0:
+        raise ValueError("Cannot compute square root of a negative number.")
+    return math.sqrt(x)
+
 
 
 if __name__ == "__main__":
