@@ -16,6 +16,6 @@ if __name__ == "__main__":
     # print(f"Circle area: {calculator.calculate_circle_area(radius)}")
 
     # TODO: Implement rectangle area feature
-    # length = 10
-    # width = 6
-    # print(f"Rectangle area: {calculator.calculate_rectangle_area(length, width)}")
+    length = 10
+    width = 6
+    print(f"Rectangle area: {calculator.calculate_rectangle_area(length, width)}")
